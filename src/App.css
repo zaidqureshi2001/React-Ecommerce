@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  h1 {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+  
+  }
