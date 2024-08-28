@@ -26,12 +26,15 @@ const Home = () => {
   ]
   return (
     <div >
-      <div className='Home  flex justify-around items-center  '>
-        <div className="left-home px-9 ">
-          <h1 className='font-bold text-6xl mb-10 text-animation-title'>
+      <div className='Home  flex justify-around items-center h-screen '>
+        <div className="left-home md:px-9 ">
+          <h1 className='font-bold md:text-6xl mb-10 text-animation-title text-4xl '>
             Welcome to zuberiyaGlobal
           </h1>
-          <p className='text-animation-description '>Discover the latest in fashion, curated just for you. Whether you're looking for the perfect dress, stylish accessories, or everyday essentials, we've got you covered. Step into a world of elegance, sophistication, and timeless beauty. Shop with us and embrace the fashionista within you</p>
+          <p className='text-animation-description '>Discover the latest in fashion, curated just for you. 
+            Whether you're looking for the perfect dress, stylish accessories, or everyday essentials, we've got you covered. 
+            Step into a world of elegance, sophistication, and timeless beauty.
+             Shop with us and embrace the fashionista within you</p>
           <button className='bg-white p-4 mt-4 rounded-2xl font-bold text-xs text-animation-button'>Latest Arrival</button>
         </div>
         <div className='Second-Carousel'>
@@ -41,7 +44,7 @@ const Home = () => {
       <div className='Home-Allcom'>
         <Newr />
         <Popular />
-        <Line name="MOst"/>
+        <Line name2="Most"/>
       </div>
     </div>
   )

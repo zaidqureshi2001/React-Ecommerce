@@ -23,9 +23,9 @@ const Carouselsall = ({ newimg,width,height,justifyContent = "center",top,paddin
     // ]
     return (
 
-        <div className='relative px-12 cursor-pointer'style={{justifyContent,padding}}  >
+        <div className='relative px-12 cursor-pointer 'style={{justifyContent,padding}}  >
             <div className='overflow-hidden relative' >
-                <div className= ' flex m-w-lg w-[300px]  transition-transform ease-in-out duration-50 ' style={{width,height,transform: `translateX(-${curr * 100}%)`
+                <div className= ' flex w-[130px]  md:w-[300px]  transition-transform ease-in-out duration-50 ' style={{width,height,transform: `translateX(-${curr * 100}%)`
                 }}>
                     {
                         newimg.map((e, i) => {
@@ -36,14 +36,14 @@ const Carouselsall = ({ newimg,width,height,justifyContent = "center",top,paddin
             </div>
             <div className='btn absolute inset-0 items-center flex justify-between' >
                 <div className="absolute w-10 top-48 cursor-pointer h-[40px] inset-0 bg-gray-100 opacity-30 rounded-full" style={{top}}></div>  {/* Background layer */}
-                <div className="absolute z-10 hover:bg-white rounded-full " onClick={prev} >
+                <div className="absolute md:z-10 hover:bg-white rounded-full " onClick={prev} >
                     <ChevronLeft size={40} className="text-black" />
                 </div>
             </div>
             <div className='btn absolute end-0.5 top-48 items-center flex justify-between' style={{top}}>
                 <div className="absolute w-10 cursor-pointer h-[40px] inset-0 bg-gray-100 opacity-30 rounded-full"></div>  {/* Background layer */}
 
-                <div className=" z-10 hover:bg-white rounded-full transition-all" onClick={next}>
+                <div className=" md:z-10 hover:bg-white rounded-full transition-all" onClick={next}>
                     <ChevronRight size={40} className="text-black" />
                 </div>
             </div>

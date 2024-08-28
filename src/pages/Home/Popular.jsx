@@ -6,7 +6,7 @@ import Line from './Line';
 const Popular = () => {
   return (
     <div className="popular-container ">
-<Line/>
+<Line name="Top Collection"/>
       <div className="flex flex-wrap justify-around p-4 m-5 h-full ">
         {smallData.map((item, i) => (
           <div key={i} className="w-full h-full  sm:w-1/2 md:w-1/3 lg:w-1/4 p-2">
