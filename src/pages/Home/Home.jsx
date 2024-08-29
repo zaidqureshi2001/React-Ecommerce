@@ -11,6 +11,7 @@ import image8 from '/src/assets/images/image8.jpeg';
 import Popular from './Popular'
 import Newr from './Newr'
 import Line from './Line'
+import Trending from './Trending'
 
 
 const Home = () => {
@@ -44,7 +45,11 @@ const Home = () => {
       <div className='Home-Allcom'>
         <Newr />
         <Popular />
-        <Line name2="Most"/>
+        <Line name2="Trending Now"/>
+      </div>
+        <Trending/>
+      <div>
+
       </div>
     </div>
   )
