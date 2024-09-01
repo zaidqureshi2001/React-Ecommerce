@@ -6,7 +6,7 @@ const Items = (props) => {
       <div className='flex-shrink-0 h-full'>
         <img src={props.image} alt={props.name} className='w-full h-96 object-cover cursor-pointer transform transition-transform duration-300 hover:scale-105' />
       <div className='bg-[#f3f3f3] p-4 flex flex-col'>
-        <h2 className='font-bold text-lg mb-2'>{props.name}</h2>
+        <h2 className='font-bold text-lg mb-2 font-playfair'>{props.name}</h2>
         <p className='text-gray-700 mt-auto text-xl'>₹{props.price}</p>
       </div>
       </div>

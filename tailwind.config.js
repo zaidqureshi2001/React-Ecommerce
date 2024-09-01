@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        'playfair': ['Playfair Display', 'serif'],
+        'basker': ['Baskervville SC', 'serif']
+        // font-family: "Zilla Slab", serif;
+
+
+      }
+    },
   },
   plugins: [],
 }

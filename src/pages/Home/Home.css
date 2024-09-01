@@ -1,5 +1,5 @@
 .Home {
-  /* height: 80vh; */
+  height: 100vh;
   background-color: #ffe5d9;
   /* Light peach */
 
@@ -77,3 +77,50 @@
 .text-animation-button {
   animation: fadeInScale 2s ease-in-out;
 }
+
+@media (max-width: 448px) {
+  .Second-Carousel {
+    display: none;
+  }
+
+  .Home {
+    height: 100%;
+    padding: 4px;
+  }
+
+  .Home-btn {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .left-home p {
+    font-size: 14px;
+    padding-left: 10px;
+    /* margin: 10px; */
+  }
+
+  .left-home h1 {
+    font-size: 21px;
+    /* padding-top:10px ; */
+    margin-top: 30px;
+    /* margin-top: 60px; */
+  }
+
+  .left-home {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* .Home{
+    flex-direction: column;
+
+  } */
+}
+
+@media (max-width: 476px) {}
