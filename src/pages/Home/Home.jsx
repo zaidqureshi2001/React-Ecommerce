@@ -12,7 +12,7 @@ import Popular from './Popular'
 import Newr from './Newr'
 import Line from './Line/Line'
 import Trending from './Trending'
-import Banners from './Banners'
+import Banners from './Banners/Banners'
 
 
 const Home = () => {

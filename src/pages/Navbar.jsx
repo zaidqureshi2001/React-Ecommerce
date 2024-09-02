@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 import { FaShoppingCart } from 'react-icons/fa';
 import { CgClose, CgMenu } from 'react-icons/cg';
 import './Navbar.css';
+import { useSmoothNavigate } from '../useSmoothNavigate';
+import { MdOutlineArrowDropDown } from 'react-icons/md';
 
 const Navbar = () => {
+    const navigate = useSmoothNavigate()
     const [isOpen, setIsOpen] = useState(false);
 
     function toggle() {
@@ -24,19 +27,42 @@ const Navbar = () => {
                     <p>Zaid Shop</p>
                 </div>
                 {/* Mobile Menu */}
-                <div className={`absolute w-full h-screen z-10 items-center top-0 left-0 w-full bg-white  overflow-hidden transition-transform durantion-1000 ease-in-out transform ${isOpen ? 'translate-y-0' : '-translate-y-full'} md:hidden`}>
-                    <ul className='flex flex-col items-center gap-6 justify-center text-lg font-medium h-full w-full '>
+                <div className={`font-playfair  absolute w-full h-screen z-10 items-center top-0 left-0 w-full bg-white  overflow-hidden transition-transform durantion-1000 ease-in-out transform ${isOpen ? 'translate-y-0' : '-translate-y-full'} md:hidden`}>
+                    <ul className='flex flex-col items-center gap-6 justify-center text-2xl font-medium h-full w-full '>
                         <li><Link to='/' className=" hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150  hover:ease-in-out" onClick={toggle}>Home</Link></li>
-                        <li><Link to='/Product' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-out hover:ease-in" onClick={toggle}>Products</Link></li>
-                        <li><Link to='/About' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-out hover:ease-in" onClick={toggle}>About</Link></li>
+                        <li className="relative group">
+                            <div className='flex items-center'>
+                            <Link to='/Product' className="hover:text-gray-600">Products </Link>
+                            <MdOutlineArrowDropDown/>
+                            </div>
+                            <ul className="absolute  top-3 mt-4 font-bold font-playfair  w-48 bg-white text-pink-600 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-900 group-hover:ease-in invisible text-center transition-all">
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Pakistani Suit</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Wedding Suit</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Georgette</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Cotton Suit</Link></li>
+                            </ul>
+                        </li>                        <li><Link to='/About' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-out hover:ease-in" onClick={toggle}>About</Link></li>
+                        <li><Link to='/Contact' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-out hover:ease-in" onClick={toggle}>Contact Us</Link></li>
                     </ul>
                 </div>
                 {/* Desktop Menu */}
-                <div className="hidden md:flex items-center gap-8">
-                    <ul className='flex gap-8 text-lg font-medium'>
+                <div className="hidden md:flex items-center gap-5 ">
+                    <ul className='flex gap-8 text-lg font-medium '>
                         <li><Link to='/' className="hover:text-gray-600">Home</Link></li>
-                        <li><Link to='/Product' className="hover:text-gray-600">Products</Link></li>
-                        <li><Link to='/About' className="hover:text-gray-600">About</Link></li>
+                        <li className="relative group">
+                            <div className='flex items-center'>
+                            <Link to='/Product' className="hover:text-gray-600">Products </Link>
+                            <MdOutlineArrowDropDown/>
+                            </div>
+                            <ul className="absolute  top-3 mt-4 font-bold font-playfair  w-48 bg-white text-pink-600 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-900 group-hover:ease-in invisible text-center transition-all">
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Pakistani Suit</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Wedding Suit</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Georgette</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="">Cotton Suit</Link></li>
+                            </ul>
+                        </li>
+                        <li><Link to='/About' onClick={() => { navigate('/About') }} className="hover:text-gray-600">About</Link></li>
+                        <li><Link to='/Contact' onClick={() => { navigate('/Contact') }} className="hover:text-gray-600">Contact Us</Link></li>
                     </ul>
                 </div>
                 {/* Search and Cart */}
@@ -51,7 +77,7 @@ const Navbar = () => {
                     </Link>
                     {/* Hamburger Menu for Mobile */}
 
-                    <div className={`menu-btns text-3xl md:hidden z-50 mb-4 cursor-pointer   ${isOpen ? "rounded-xl hover:bg-black hover:text-white transition duration-150 ease-out hover:ease-in p-2" :""}`} onClick={toggle}>
+                    <div className={`menu-btns text-3xl md:hidden z-50 mb-4 cursor-pointer   ${isOpen ? "rounded-xl hover:bg-black hover:text-white transition duration-150 ease-out hover:ease-in p-2" : ""}`} onClick={toggle}>
                         {isOpen ? <CgClose /> : <CgMenu />}
                     </div>
                 </div>

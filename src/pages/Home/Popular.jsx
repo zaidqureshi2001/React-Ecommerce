@@ -13,7 +13,7 @@ const Popular = () => {
             <Items id={item.id} name={item.name} image={item.image} price={item.price} />
           </div>
         ))}
-        <button className="bg-pink-500 w-2/4  mt-5 text-white py-2 px-4 rounded hover:bg-pink-700 w-full"
+        <button className="bg-pink-500  w-2/4  mt-5 text-white py-2 px-4 rounded hover:bg-pink-700 w-full"
         >View all</button>
       </div>
     </div>
