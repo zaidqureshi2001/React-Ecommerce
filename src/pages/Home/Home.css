@@ -1,6 +1,8 @@
 .Home {
   height: 100vh;
-  background-color: #ffe5d9;
+  /* background-color: #ffe5d9; */
+  background: linear-gradient(45deg, #ff9a9e, #fecfef, #fcb69f);
+
   /* Light peach */
 
 }
@@ -88,7 +90,7 @@
     padding: 4px;
   }
 
-  .Home-btn {
+  .Homebtn {
     padding: 10px;
     font-size: 12px;
     margin-bottom: 10px;

@@ -1,7 +1,8 @@
 import React from 'react';
-import { FaFacebookF, FaInstagram, FaTwitterSquare } from 'react-icons/fa';
+import { FaCcMastercard, FaCcVisa, FaFacebookF, FaGooglePay, FaInstagram, FaTwitterSquare } from 'react-icons/fa';
 import { Link, useNavigate } from 'react-router-dom';
 import { useSmoothNavigate } from '../../useSmoothNavigate';
+import { CiBank } from 'react-icons/ci';
 
 const Footer = () => {
    const smoothNavigate=useSmoothNavigate()
@@ -79,10 +80,10 @@ const Footer = () => {
             <div className="border-t border-gray-700 mt-8 pt-8 text-sm text-center">
                 <p>&copy; 2024 Zuberiya Global. All Rights Reserved.</p>
                 <div className="flex justify-center space-x-4 mt-4">
-                    <img src="path-to-visa-logo" alt="Visa" className="h-6" />
-                    <img src="path-to-mastercard-logo" alt="MasterCard" className="h-6" />
-                    <img src="path-to-paypal-logo" alt="PayPal" className="h-6" />
-                    {/* Add more payment icons as needed */}
+                    <FaCcVisa size={50} />
+                    <FaCcMastercard size={50}  />
+                    <FaGooglePay size={50}/>
+                    <CiBank size={50} />
                 </div>
             </div>
 
