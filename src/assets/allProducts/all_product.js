@@ -326,39 +326,3 @@
 //   },
 // ];
 
-// export default all_product;
-
-// export const dummyData = [
-//   {
-//     id: 1,
-//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-//     category: "kid",
-//     image: "https://m.media-amazon.com/images/I/61jfBIZmcmL._AC_UL320_.jpg",
-//     new_price: 85.0,
-//     old_price: 120.5,
-//   },
-//   {
-//     id: 2,
-//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-//     category: "kid",
-//     image: "https://m.media-amazon.com/images/I/61LUTXc8BfL._AC_UL320_.jpg",
-//     new_price: 85.0,
-//     old_price: 120.5,
-//   },
-//   {
-//     id: 3,
-//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-//     category: "kid",
-//     image: "https://m.media-amazon.com/images/I/61DbCp0RufL._AC_UL320_.jpg",
-//     new_price: 85.0,
-//     old_price: 120.5,
-//   },
-//   {
-//     id: 4,
-//     name: "Boys Orange Colourblocked Hooded Sweatshirt",
-//     category: "kid",
-//     image: "https://m.media-amazon.com/images/I/81XsZMeLtcL._AC_UL320_.jpg",
-//     new_price: 85.0,
-//     old_price: 120.5,
-//   },
-// ]

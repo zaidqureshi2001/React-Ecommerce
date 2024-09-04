@@ -34,13 +34,13 @@ const Carouselsall = ({ newimg,width,height,justifyContent = "center",top,paddin
                     }
                 </div>
             </div>
-            <div className='btn absolute inset-0 items-center flex justify-between' >
+            <div className=' absolute inset-0 items-center flex justify-between' >
                 <div className="absolute w-10 top-48 cursor-pointer h-[40px] inset-0 bg-gray-100 opacity-30 rounded-full" style={{top}}></div>  {/* Background layer */}
                 <div className="absolute md:z-10 hover:bg-white rounded-full " onClick={prev} >
                     <ChevronLeft size={40} className="text-black" />
                 </div>
             </div>
-            <div className='btn absolute end-0.5 top-48 items-center flex justify-between' style={{top}}>
+            <div className=' absolute end-0.5 top-48 items-center flex justify-between' style={{top}}>
                 <div className="absolute w-10 cursor-pointer h-[40px] inset-0 bg-gray-100 opacity-30 rounded-full"></div>  {/* Background layer */}
 
                 <div className=" md:z-10 hover:bg-white rounded-full transition-all" onClick={next}>

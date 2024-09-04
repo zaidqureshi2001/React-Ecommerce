@@ -3,11 +3,12 @@ import './App.css'
 import Navbar from './pages/Navbar'
 import Home from './pages/Home/Home'
 import About from './pages/About/About'
-import Contact from './pages/Contact'
-import Product from './pages/Product'
+import Contact from './pages/Contact/Contact'
+import Product from './pages/Product/Product'
 import Footer from './pages/Footer/Footer'
 import FAQ from './pages/Footer/FAQ'
 import PrivacyPolicy from './pages/Footer/PrivacyPolicy'
+import Cart from './pages/Cart/Cart'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Route path='/Product' element={<Product/>}/>
     <Route path='/FAQ' element={<FAQ/>}/>
     <Route path='/Privacy' element={<PrivacyPolicy/>}/>
+    <Route path='/Cart' element={<Cart/>}/>
   </Routes>
   <Footer/>
     </>

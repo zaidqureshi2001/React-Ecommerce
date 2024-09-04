@@ -5,10 +5,12 @@ import { CgClose, CgMenu } from 'react-icons/cg';
 import { MdOutlineArrowDropDown } from 'react-icons/md';
 import { useSmoothNavigate } from '../useSmoothNavigate';
 import './Navbar.css'
+import { useSelector } from 'react-redux';
 
 const Navbar = () => {
     const navigate = useSmoothNavigate();
     const [isOpen, setIsOpen] = useState(false);
+    const items=useSelector((state)=>state.cart)
 
     const toggle = () => {
         setIsOpen(!isOpen);
@@ -26,7 +28,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className=" Navar-logo logo flex items-center text-xl font-bold text-pink-500 cursor-pointer">
                     <FaShoppingBag className="mr-2 text-2xl" />
-                    <span>Zuberiya Global</span>
+                    <span className='text'>Zuberiya Global</span>
                 </div>
 
                 {/* Mobile Menu */}
@@ -82,9 +84,12 @@ const Navbar = () => {
                         placeholder='Search'
                         className="px-4 py-2 mb-4 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2  focus:ring-gray-600"
                     />
-                    <Link to="/cart" className=" cart text-xl hover:text-gray-600 mb-4">
-                        <FaShoppingCart />
+                  <div className='flex '>
+                  <Link to="/cart" className=" cart text-xl hover:text-gray-600 mb-4">
+                        <FaShoppingCart onClick={() => { navigate('/Cart') }} />
                     </Link>
+                    <p className='text-xl'>{items.length}</p>
+                  </div>
 
                     {/* Hamburger Menu for Mobile */}
                     <div className={` menu-btn text-3xl md:hidden z-50 mb-4 cursor-pointer ${isOpen ? "rounded-xl hover:bg-black hover:text-white transition duration-150 ease-out p-2" : ""}`} onClick={toggle}>

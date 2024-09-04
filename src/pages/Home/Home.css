@@ -80,6 +80,7 @@
   animation: fadeInScale 2s ease-in-out;
 }
 
+/* Responsive Desing */
 @media (max-width: 448px) {
   .Second-Carousel {
     display: none;
@@ -125,4 +126,8 @@
   } */
 }
 
-@media (max-width: 476px) {}
+/* @media (max-width: 1034px) {
+ .left-home h1{
+  font-size: 39px;
+ }
+} */

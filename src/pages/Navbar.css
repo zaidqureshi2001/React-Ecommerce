@@ -12,18 +12,28 @@
    
     .navserch input{
         width: 100px;
+    
     }
-    .nav-list{
-        justify-content: space-between;
+    .navserch{
+        margin-right: 20px;
     }
+  .Navar-logo{
+    margin-left: 20px;
+  }
     .Cart{
         font-size: 16px;
         margin-left: 7px;
     }
     .menu-btns{
-        margin-left: 7px;
+        /* margin-left: 7px; */
         font-size: 21px;
     }
+    .navfirst{
+        padding: 0px;
+    }
+    .text{
+        font-size: 14px;
+       }
 }
 
 @media (max-width: 375px){
@@ -31,9 +41,25 @@
     .navserch input{
         width: 100px;
     }
+    .Navar-logo{
+    }
+     
+    .Cart{
+        font-size: 16px;
+        margin-left: 7px;
+    }
  
-   .Navar-logo{
-    font-size: 13px;
+    .text{
+        font-size: 14px;
+
+    }
+    .navserch a{
+        font-size: 14px;
+    }
+    .menu-btn{
+        font-size: 18px;
+    }
+   .Navar-logo text{
     margin-right: 10px;
    }
    .Navar-logo svg{
@@ -49,11 +75,20 @@
         padding-top: 5px;
         font-size: 10px;
     }
-    .navserch a{
+    /* .navserch a{
         font-size: 10px;
     }
     .menu-btn{
         font-size: 16px;
+    } */
+    .text{
+        font-size: 12px;
+       }
+       .navserch a{
+        font-size: 14px;
+    }
+    .menu-btn{
+        font-size: 18px;
     }
  
    .Navar-logo{
@@ -80,10 +115,16 @@
     }
  
    .Navar-logo{
-    font-size: 10px;
+    font-size: 15px;
     margin-right: 10px;
    }
    .Navar-logo svg{
     font-size: 10px;
    }
+}
+@media (max-width: 768px){
+   .navfirst{
+    justify-content: space-between;
+   }
+  
 }
