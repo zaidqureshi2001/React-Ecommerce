@@ -9,6 +9,7 @@ import Footer from './pages/Footer/Footer'
 import FAQ from './pages/Footer/FAQ'
 import PrivacyPolicy from './pages/Footer/PrivacyPolicy'
 import Cart from './pages/Cart/Cart'
+import Cotton from './pages/Product/Cotton'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
     <Route path='/FAQ' element={<FAQ/>}/>
     <Route path='/Privacy' element={<PrivacyPolicy/>}/>
     <Route path='/Cart' element={<Cart/>}/>
+    <Route path='/Cotton' element={<Cotton/>}/>
   </Routes>
   <Footer/>
     </>

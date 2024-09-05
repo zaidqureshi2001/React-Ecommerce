@@ -10,7 +10,7 @@ import { useSelector } from 'react-redux';
 const Navbar = () => {
     const navigate = useSmoothNavigate();
     const [isOpen, setIsOpen] = useState(false);
-    const items=useSelector((state)=>state.cart)
+    const items = useSelector((state) => state.cart)
 
     const toggle = () => {
         setIsOpen(!isOpen);
@@ -39,18 +39,10 @@ const Navbar = () => {
                                 Home
                             </Link>
                         </li>
-                        <li className="relative group">
-                            <div className='flex items-center'>
-                                <Link to='/Product' className="hover:text-gray-600">Products</Link>
-                                <MdOutlineArrowDropDown />
-                            </div>
-                            <ul className="absolute top-3 mt-4 font-bold w-48 bg-white text-pink-600 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-900 ease-in invisible text-center">
-                                <li className="p-2 hover:bg-gray-200"><Link to="">Pakistani Suit</Link></li>
-                                <li className="p-2 hover:bg-gray-200"><Link to="">Wedding Suit</Link></li>
-                                <li className="p-2 hover:bg-gray-200"><Link to="">Georgette</Link></li>
-                                <li className="p-2 hover:bg-gray-200"><Link to="">Cotton Suit</Link></li>
-                            </ul>
+                        <li>
+                            <Link to='/Product' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-in-out" onClick={toggle}>Products</Link>
                         </li>
+                       
                         <li><Link to='/About' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-in-out" onClick={toggle}>About</Link></li>
                         <li><Link to='/Contact' className="hover:bg-black hover:text-white px-5 py-4 rounded-2xl transition duration-150 ease-in-out" onClick={toggle}>Contact Us</Link></li>
                     </ul>
@@ -69,7 +61,7 @@ const Navbar = () => {
                                 <li className="p-2 hover:bg-gray-200"><Link to="">Pakistani Suit</Link></li>
                                 <li className="p-2 hover:bg-gray-200"><Link to="">Wedding Suit</Link></li>
                                 <li className="p-2 hover:bg-gray-200"><Link to="">Georgette</Link></li>
-                                <li className="p-2 hover:bg-gray-200"><Link to="">Cotton Suit</Link></li>
+                                <li className="p-2 hover:bg-gray-200"><Link to="/Cotton">Cotton Suit</Link></li>
                             </ul>
                         </li>
                         <li><Link to='/About' onClick={() => { navigate('/About') }} className="hover:text-gray-600">About</Link></li>
@@ -84,12 +76,12 @@ const Navbar = () => {
                         placeholder='Search'
                         className="px-4 py-2 mb-4 mt-1 border border-gray-300 rounded-md focus:outline-none focus:ring-2  focus:ring-gray-600"
                     />
-                  <div className='flex '>
-                  <Link to="/cart" className=" cart text-xl hover:text-gray-600 mb-4">
-                        <FaShoppingCart onClick={() => { navigate('/Cart') }} />
-                    </Link>
-                    <p className='text-xl'>{items.length}</p>
-                  </div>
+                    <div className='flex '>
+                        <Link to="/cart" className=" cart text-xl hover:text-gray-600 mb-4">
+                            <FaShoppingCart onClick={() => { navigate('/Cart') }} />
+                        </Link>
+                        <p className='text-xl'>{items.length}</p>
+                    </div>
 
                     {/* Hamburger Menu for Mobile */}
                     <div className={` menu-btn text-3xl md:hidden z-50 mb-4 cursor-pointer ${isOpen ? "rounded-xl hover:bg-black hover:text-white transition duration-150 ease-out p-2" : ""}`} onClick={toggle}>

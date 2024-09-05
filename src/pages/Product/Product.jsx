@@ -2,6 +2,8 @@ import React from 'react';
 import prdct from '../../assets/allProducts/all_Products';
 import { add } from '../../Redux/Cartslice';
 import { useDispatch } from 'react-redux';
+import './Product.css'
+import ProductPanel from './ProductPanel';
 
 const ProductCard = () => {
   const dispatch = useDispatch();
@@ -11,7 +13,8 @@ const ProductCard = () => {
   }
 
   return (
-    <div className="All_Products px-4 mt-40">
+    <div className="All_Products px-4 mt-32 font-playfair">
+     <ProductPanel/>
       <div className="products_Item p-5 flex flex-wrap justify-around items-center">
         {/* Loop through all categories */}
         {Object.keys(prdct[0]).map((category) =>

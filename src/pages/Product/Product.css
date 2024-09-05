@@ -1,0 +1,14 @@
+@media (max-width:444px){
+    .panel{
+        font-size: 10px;
+        padding: 4px;
+        justify-content: center;
+        margin: 0px;
+    }
+}
+@media (max-width:374px){
+    .panel{
+        font-size: 8px;
+        padding: 2px;
+    }
+}

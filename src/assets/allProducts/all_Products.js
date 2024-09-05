@@ -498,7 +498,10 @@ const prdct = [
 
     ],
     Pakistani: [
-
+    {
+      id:731,
+      
+    }
     ]
 
   }
