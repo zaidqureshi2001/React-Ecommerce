@@ -10,6 +10,7 @@ import FAQ from './pages/Footer/FAQ'
 import PrivacyPolicy from './pages/Footer/PrivacyPolicy'
 import Cart from './pages/Cart/Cart'
 import Cotton from './pages/Product/Cotton'
+import Pakistani from './pages/Product/Pakistani'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
     <Route path='/Privacy' element={<PrivacyPolicy/>}/>
     <Route path='/Cart' element={<Cart/>}/>
     <Route path='/Cotton' element={<Cotton/>}/>
+    <Route path='/Pakistani' element={<Pakistani/>}/>
   </Routes>
   <Footer/>
     </>

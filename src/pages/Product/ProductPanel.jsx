@@ -7,7 +7,7 @@ const ProductPanel = () => {
   return (
     <div className='side_list   p-3'>
     <div className='panel flex list-none md:gap-3  p-3  md:p-5 bg-red-200 md:justify-start ml-12 items-center font-bold md:text-xl text-xs'>
-     <li><Link >Pakistani Suits</Link></li>
+     <li><Link to='/Pakistani'>Pakistani Suits</Link></li>
      <MdKeyboardArrowRight  />
      <li><Link >Georgette</Link></li>
      <MdKeyboardArrowRight />

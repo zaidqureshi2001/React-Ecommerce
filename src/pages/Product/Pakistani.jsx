@@ -1,23 +1,22 @@
-import React from 'react';
-import prdct from '../../assets/allProducts/all_Products';
-import { add } from '../../Redux/Cartslice';
-import { useDispatch } from 'react-redux';
-import './Product.css';
-import ProductPanel from './ProductPanel';
+import React from 'react'
+import prdct from '../../assets/allProducts/all_Products'
+import { useDispatch } from 'react-redux'
+import { add } from '../../Redux/Cartslice'
+import ProductPanel from './ProductPanel'
 
-const Product = () => {
-  const dispatch = useDispatch();
-  const allProducts = prdct.flatMap(category => Object.values(category)).flat(); // Flattening all categories
+const Pakistani = () => {
+  const dispatch = useDispatch()
   function handleAdd(product) {
     dispatch(add(product));
   }
+  const pakistani = prdct[0].Pakistani || []
   return (
-    <div className="All_Products px-4 mt-32 font-playfair">
+    <div className="Cotton_Products px-4 mt-32 font-playfair">
       <ProductPanel />
       <div className="products_Item p-5 flex flex-wrap justify-around items-center">
-        {allProducts.map((product) => (
+        {pakistani.map((product, index) => (
           <div
-            key={product.id}
+            key={index}
             className="product my-7 p-3 shadow-lg rounded-lg overflow-hidden w-64 h-5/6 cursor-pointer"
           >
             <div className="image-container">
@@ -42,8 +41,7 @@ const Product = () => {
           </div>
         ))}
       </div>
-    </div>
-  );
+    </div>)
 }
 
-export default Product;
+export default Pakistani

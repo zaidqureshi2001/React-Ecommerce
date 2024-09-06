@@ -35,6 +35,11 @@ import CotnProduct35 from '../allProducts/all_images/CotnProduct35.jpeg'
 import CotnProduct36 from '../allProducts/all_images/CotnProduct36.jpeg'
 import CotnProduct37 from '../allProducts/all_images/CotnProduct37.jpeg'
 import CotnProduct12 from '../allProducts/all_images/CotnProduct12.jpeg'
+import pak1 from '../allProducts/pakisimage/pak1.jpeg'
+import pak2 from '../allProducts/pakisimage/pak2.jpeg'
+import pak3 from '../allProducts/pakisimage/pak3.jpeg'
+import pak4 from '../allProducts/pakisimage/pak4.jpeg'
+
 const prdct = [
   {
     cotton: [
@@ -327,7 +332,7 @@ const prdct = [
         price: 2000
       },
       {
-        id: 35,
+        id: 25,
         name: "Fancy Neck Embroidery Work ",
         Image: CotnProduct20,
         description: [
@@ -498,10 +503,33 @@ const prdct = [
 
     ],
     Pakistani: [
-    {
-      id:731,
-      
-    }
+      {
+        id: 39,
+        name: 'New Brand',
+        Image: pak1
+      },
+      {
+        id: 40,
+        name: 'New Brand',
+        Image: pak2
+      },
+      {
+        id: 41,
+        name: 'New Brand',
+        Image: pak3
+      },
+      {
+        id: 42,
+        name: 'New Brand',
+        Image: pak4
+      },
+    ],
+    Wedding: [
+      {
+        id: 40,
+        name: 'example',
+        Image: CotnProduct10
+      }
     ]
 
   }
