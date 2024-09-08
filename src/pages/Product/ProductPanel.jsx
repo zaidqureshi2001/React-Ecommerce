@@ -9,9 +9,9 @@ const ProductPanel = () => {
     <div className='panel flex list-none md:gap-3  p-3  md:p-5 bg-red-200 md:justify-start ml-12 items-center font-bold md:text-xl text-xs'>
      <li><Link to='/Pakistani'>Pakistani Suits</Link></li>
      <MdKeyboardArrowRight  />
-     <li><Link >Georgette</Link></li>
+     <li><Link to='/Georgette' >Georgette</Link></li>
      <MdKeyboardArrowRight />
-     <li><Link >Wedding Suit</Link></li>
+     <li><Link to='/Wedding'>Wedding Suit</Link></li>
      <MdKeyboardArrowRight />
      <li><Link to='/Cotton' >Cotton Suits</Link></li>
     </div>

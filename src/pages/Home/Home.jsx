@@ -38,7 +38,7 @@ const Home = () => {
             Step into a world of elegance, sophistication, and timeless beauty.
             Shop with us and embrace the fashionista within you.
           </p>
-          <button className='Homebtn bg-white text-pink-600 p-4 mt-4 rounded-2xl font-bold text-xl shadow-lg transition-transform duration-300 ease-in-out hover:bg-white hover:text-black hover:shadow-xl hover:-translate-y-1 cursor-pointer'>
+          <button className='Homebtn bg-white text-pink-600 p-4 mt-4 rounded-2xl font-bold text-xl shadow-lg transition-transform duration-300 ease-in-out hover:bg-pink-500 hover:text-white hover:shadow-xl hover:-translate-y-1 cursor-pointer'>
             Latest Arrival
           </button>
         </div>

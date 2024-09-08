@@ -28,7 +28,7 @@
                     {/* Logo */}
                     <div className=" Navar-logo logo flex items-center text-xl font-bold text-pink-500 cursor-pointer">
                         <FaShoppingBag className="mr-2 text-2xl" />
-                        <span className='text'>Zuberiya Global</span>
+                        <span className='text' onClick={()=>navigate('/')}>Zuberiya Global</span>
                     </div>
 
                     {/* Mobile Menu */}
@@ -63,8 +63,8 @@
                                 </div>
                                 <ul className="absolute top-3 mt-4 font-bold w-48 bg-white text-pink-600 shadow-lg rounded-lg opacity-0 group-hover:opacity-100 group-hover:visible transition-opacity duration-900 ease-in invisible text-center">
                                     <li className="p-2 hover:bg-gray-200"><Link to="/Pakistani">Pakistani Suit</Link></li>
-                                    <li className="p-2 hover:bg-gray-200"><Link to="">Wedding Suit</Link></li>
-                                    <li className="p-2 hover:bg-gray-200"><Link to="">Georgette</Link></li>
+                                    <li className="p-2 hover:bg-gray-200"><Link to="/Wedding">Wedding Suit</Link></li>
+                                    <li className="p-2 hover:bg-gray-200"><Link to="/Georgette">Georgette</Link></li>
                                     <li className="p-2 hover:bg-gray-200"><Link to="/Cotton">Cotton Suit</Link></li>
                                 </ul>
                             </li>

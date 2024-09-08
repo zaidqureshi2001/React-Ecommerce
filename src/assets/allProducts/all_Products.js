@@ -35,11 +35,17 @@ import CotnProduct35 from '../allProducts/all_images/CotnProduct35.jpeg'
 import CotnProduct36 from '../allProducts/all_images/CotnProduct36.jpeg'
 import CotnProduct37 from '../allProducts/all_images/CotnProduct37.jpeg'
 import CotnProduct12 from '../allProducts/all_images/CotnProduct12.jpeg'
-import pak1 from '../allProducts/pakisimage/pak1.jpeg'
-import pak2 from '../allProducts/pakisimage/pak2.jpeg'
-import pak3 from '../allProducts/pakisimage/pak3.jpeg'
-import pak4 from '../allProducts/pakisimage/pak4.jpeg'
-
+import pak1 from './pakisimage/pak1.jpeg'
+import pak2 from './pakisimage/pak2.jpeg'
+import pak3 from './pakisimage/pak3.jpeg'
+import pak4 from './pakisimage/pak4.jpeg'
+import pak5 from './pakisimage/pak5.jpeg'
+import pak6 from './pakisimage/pak6.jpeg'
+import pak7 from './pakisimage/pak7.jpeg'
+import pak8 from './pakisimage/pak8.jpeg'
+import pak9 from './pakisimage/pak9.jpeg'
+import pak10 from './pakisimage/pak10.jpeg'
+import pak11 from './pakisimage/pak11.jpeg'
 const prdct = [
   {
     cotton: [
@@ -504,31 +510,154 @@ const prdct = [
     ],
     Pakistani: [
       {
+        id: 38,
+        name: "Pure Cotton Exclusive Designer Print with  Handwork  ",
+        Image: pak1,
+        description: [
+          'Top:Pure Cotton Exclusive Designer Print with  Handwork ',
+          'Bottom : 100% Pure Cotton Salwar (3 mtrs apx)',
+          'Dupatta : Pure Cotton Mal Mal Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 1400
+
+      },
+      {
         id: 39,
-        name: 'New Brand',
-        Image: pak1
+        name: "Karachi Print With Heavy Printed Desing ",
+        Image: pak2,
+        description: [
+          'Top:Heay Cotton Print',
+          'Bottom : Heay Cotton (3 mtrs apx)',
+          'Dupatta : Pure Cotton Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 2300
+
       },
       {
         id: 40,
-        name: 'New Brand',
-        Image: pak2
+        name: "Brand:Firdos ,Cotton Print With Daman Lace",
+        Image: pak3,
+        description: [
+          'Top:Pure Cotton Exclusive Designer Print with  HANDWORK ',
+          'Bottom : 100% Pure Cotton Salwar (3 mtrs apx)',
+          'Dupatta : Pure Cotton Mal Mal Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 1600
+
       },
       {
         id: 41,
-        name: 'New Brand',
-        Image: pak3
+        name: "Cotton Print Bottom Patch ",
+        Image: pak4,
+        description: [
+          'Top:Heay Cotton Print',
+          'Bottom : Heay Cotton (3 mtrs apx)',
+          'Dupatta : Pure Cotton Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 2300
+
       },
       {
         id: 42,
-        name: 'New Brand',
-        Image: pak4
+        name: "Cotton Suit With Daman And Dupatta Lace Work",
+        Image: pak5,
+        description: [
+          'Top:Heay Cotton Print',
+          'Bottom : Heay Cotton (3 mtrs apx)',
+          'Dupatta : Pure Cotton Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 2500
+
+      },
+      {
+        id: 43,
+        name: "Printed With Dupatta And Daman Lace Work",
+        Image: pak6,
+        description: [
+          'Top:Heay Cotton Print',
+          'Bottom : Heay Cotton (3 mtrs apx)',
+          'Dupatta : Pure Cotton Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 3000
+
+      },
+      {
+        id: 44,
+        name: "Semi Cotton Digital Style Print With Heavy Self Embroidery ",
+        Image: pak7,
+        description: [
+          'Top:Semi Cotton Digital Style Print With Heavy Self Embroidery c(2.50 MTR) ',
+          'Bottom :Soft  Cotton  (2.5 mtrs apx)',
+          'Dupatta : Cotton Dupatta (2.10 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(2.5 mtrs apx) Dupatta - (2.10 mtrs apx)'
+        ],
+        price: 1800
+
+      },
+      {
+        id: 45,
+        name: "Cotton Print With Style Button On Neck  ",
+        Image: pak11,
+        description: [
+          'Top:Heay Cotton Print',
+          'Bottom : Heay Cotton (3 mtrs apx)',
+          'Dupatta : Pure Cotton Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 2000
+
+      },
+      {
+        id: 46,
+        name: "Printed & Salwar Plazo  ",
+        Image: pak9,
+        description: [
+          'Top:Pure Cotton Exclusive Designer Print with  Handwork ',
+          'Bottom : Plazo Pure Cotton Salwar (3 mtrs apx)',
+          'Dupatta : Pure Cotton Mal Mal Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 1200
+
+      },
+      {
+        id: 47,
+        name: "Pure Cotton With Embroidery And Printed Dupatta",
+        Image: pak10,
+        description: [
+          'Top:Pure Cotton Exclusive Designer Print with  HANDWORK ',
+          'Bottom : 100% Pure Cotton Salwar (3 mtrs apx)',
+          'Dupatta : Pure Cotton Mal Mal Print (2.30 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(3 mtrs apx) Dupatta - (2.30 mtrs apx)'
+        ],
+        price: 600
+
+      },
+      {
+        id: 48,
+        name: "Vandana Pure Cotton And Printed Desing ",
+        Image: pak8,
+        description: [
+          'Top:Semi Cotton Digital Style Print With Heavy Self Embroidery c(2.50 MTR) ',
+          'Bottom :Soft  Cotton  (2.5 mtrs apx)',
+          'Dupatta : Cotton Dupatta (2.10 mtrs apx)',
+          'Top- (2.50 mtrs apx) Bottom -(2.5 mtrs apx) Dupatta - (2.10 mtrs apx)'
+        ],
+        price: 1800
+
       },
     ],
-    Wedding: [
+    Georgette: [
       {
-        id: 40,
-        name: 'example',
-        Image: CotnProduct10
+        id: 49,
+        name: "zaid",
+        
       }
     ]
 

@@ -1,23 +1,22 @@
 import React from 'react'
-import prdct from '../../assets/allProducts/all_Products'
 import { useDispatch } from 'react-redux'
-import { add } from '../../Redux/Cartslice'
+import prdct from '../../assets/allProducts/all_Products'
 import ProductPanel from './ProductPanel'
 
-const Pakistani = () => {
+const Georgette = () => {
   const dispatch = useDispatch()
-  function handleAdd(product) {
-    dispatch(add(product));
+  const georgette = prdct[0].Georgette || []
+  function handleAdd(product){
+    dispatch(add(product))
   }
-  const pakistani = prdct[0].Pakistani || []
   return (
-    <div className="Cotton_Products px-4 mt-32 font-playfair">
+<div className="Cotton_Products px-4 mt-32 font-playfair">
       <ProductPanel />
       <div className="products_Item p-5 flex flex-wrap justify-around items-center">
-        {pakistani.map((product, index) => (
+        {georgette.map((product, index) => (
           <div
             key={index}
-            className="product my-7 p-3 shadow-lg rounded-lg overflow-hidden w-64 h-5/6   cursor-pointer"
+            className="product my-7 p-3 shadow-lg rounded-lg overflow-hidden w-64 h-5/6 cursor-pointer"
           >
             <div className="image-container">
               <img
@@ -41,7 +40,7 @@ const Pakistani = () => {
           </div>
         ))}
       </div>
-    </div>)
+    </div>  )
 }
 
-export default Pakistani
+export default Georgette
