@@ -17,7 +17,7 @@ const smallData = [
         id: 2,
         name: "Mashuka Vol 2 By Belliza",
         image: item2,
-        price: 31004
+        price: 3004
     },
    
     {

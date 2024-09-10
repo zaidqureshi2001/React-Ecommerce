@@ -54,10 +54,10 @@ const prdct = [
         name: "Print karachi Pattern With Daman Print ",
         Image: CotnProduct1,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 800
       },
@@ -66,10 +66,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct11,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom : Pure Cotton With print ',
-          '🧣Dupatta :Pure Cotton beautiful print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom : Pure Cotton With print ',
+          'Dupatta :Pure Cotton beautiful print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 600
       },
@@ -78,10 +78,10 @@ const prdct = [
         name: "Rayon Cotton with beautiful print neck & fancy button",
         Image: CotnProduct16,
         description: [
-          '👗Top: Pure Rayon Cotton with beautiful print neck & fancy button',
-          '👖*Bottom: Pure Rayon Cotton ',
-          '🧣Dupatta. Pure Chiffon with sequence work ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Rayon Cotton with beautiful print neck & fancy button',
+          '*Bottom: Pure Rayon Cotton ',
+          'Dupatta. Pure Chiffon with sequence work ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1000
       },
@@ -90,10 +90,10 @@ const prdct = [
         name: "Neck Flower embroidery work Dupatta Print",
         Image: CotnProduct37,
         description: [
-          '👗Top:Pure Cotton with beautiful neck embroidery work.',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful neck embroidery work.',
+          'Bottom:Pure Cotton ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 2000
       },
@@ -102,10 +102,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print Hand Work ",
         Image: CotnProduct27,
         description: [
-          '👗Top:Pure Cotton with beautiful print hand work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print hand work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1400
       },
@@ -114,10 +114,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct6,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom : Pure Cotton With print ',
-          '🧣Dupatta :Pure Cotton beautiful print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom : Pure Cotton With print ',
+          'Dupatta :Pure Cotton beautiful print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 600
       },
@@ -126,10 +126,10 @@ const prdct = [
         name: "Rayon Cotton with beautiful print neck & fancy button",
         Image: CotnProduct18,
         description: [
-          '👗Top: Pure Rayon Cotton with beautiful print neck & fancy button',
-          '👖*Bottom: Pure Rayon Cotton ',
-          '🧣Dupatta. Pure Chiffon with sequence work ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Rayon Cotton with beautiful print neck & fancy button',
+          '*Bottom: Pure Rayon Cotton ',
+          'Dupatta. Pure Chiffon with sequence work ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1000
       },
@@ -138,10 +138,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print With Tie Hand Work.",
         Image: CotnProduct29,
         description: [
-          '👗Top:Pure Cotton with beautiful print with Tie hand work',
-          '👖Bottom:Pure Cotton',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with Tie hand work',
+          'Bottom:Pure Cotton',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 900
       },
@@ -150,10 +150,10 @@ const prdct = [
         name: "Neck Flower embroidery work Dupatta Print",
         Image: CotnProduct35,
         description: [
-          '👗Top:Pure Cotton with beautiful neck embroidery work.',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful neck embroidery work.',
+          'Bottom:Pure Cotton ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 2000
       },
@@ -162,10 +162,10 @@ const prdct = [
         name: "Print karachi Pattern With Daman Print ",
         Image: CotnProduct4,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 800
       },
@@ -174,10 +174,10 @@ const prdct = [
         name: "Fancy Neck Embroidery Work ",
         Image: CotnProduct21,
         description: [
-          '👗Top:Pure Cotton with fancy neck embroidery work ',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta:Pure cotton   fancy print',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with fancy neck embroidery work ',
+          'Bottom:Pure Cotton ',
+          'Dupatta:Pure cotton   fancy print',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1100
       },
@@ -186,10 +186,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print With Tie Hand Work.",
         Image: CotnProduct28,
         description: [
-          '👗Top:Pure Cotton with beautiful print with Tie hand work',
-          '👖Bottom:Pure Cotton',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with Tie hand work',
+          'Bottom:Pure Cotton',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 900
       },
@@ -198,10 +198,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct10,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom : Pure Cotton With print ',
-          '🧣Dupatta :Pure Cotton beautiful print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom : Pure Cotton With print ',
+          'Dupatta :Pure Cotton beautiful print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 600
       },
@@ -210,10 +210,10 @@ const prdct = [
         name: "Neck Hand Work And Dupatta Print",
         Image: CotnProduct33,
         description: [
-          '👗Top:Pure Cotton with beautiful print with neck hand work.',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with neck hand work.',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1500
       },
@@ -222,10 +222,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print With Tie Hand Work.",
         Image: CotnProduct30,
         description: [
-          '👗Top:Pure Cotton with beautiful print with Tie hand work',
-          '👖Bottom:Pure Cotton',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with Tie hand work',
+          'Bottom:Pure Cotton',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 900
       },
@@ -234,10 +234,10 @@ const prdct = [
         name: "Neck Flower embroidery work Dupatta Print",
         Image: CotnProduct34,
         description: [
-          '👗Top:Pure Cotton with beautiful neck embroidery work.',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful neck embroidery work.',
+          'Bottom:Pure Cotton ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 2000
       },
@@ -246,10 +246,10 @@ const prdct = [
         name: "Karachi Special",
         Image: CotnProduct5,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -258,10 +258,10 @@ const prdct = [
         name: "Karachi Special",
         Image: CotnProduct7,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -270,10 +270,10 @@ const prdct = [
         name: "Print karachi Pattern With Daman Print ",
         Image: CotnProduct3,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 800
       },
@@ -282,10 +282,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print Hand Work ",
         Image: CotnProduct25,
         description: [
-          '👗Top:Pure Cotton with beautiful print hand work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print hand work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1400
       },
@@ -294,10 +294,10 @@ const prdct = [
         name: "Karachi Special",
         Image: CotnProduct9,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -306,10 +306,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print Hand Work ",
         Image: CotnProduct26,
         description: [
-          '👗Top:Pure Cotton with beautiful print hand work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print hand work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1400
       },
@@ -318,10 +318,10 @@ const prdct = [
         name: "Karachi Special",
         Image: CotnProduct8,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -330,10 +330,10 @@ const prdct = [
         name: "Neck Flower embroidery work Dupatta Print",
         Image: CotnProduct36,
         description: [
-          '👗Top:Pure Cotton with beautiful neck embroidery work.',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful neck embroidery work.',
+          'Bottom:Pure Cotton ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 2000
       },
@@ -342,10 +342,10 @@ const prdct = [
         name: "Fancy Neck Embroidery Work ",
         Image: CotnProduct20,
         description: [
-          '👗Top:Pure Cotton with fancy neck embroidery work ',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta:Pure cotton   fancy print',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with fancy neck embroidery work ',
+          'Bottom:Pure Cotton ',
+          'Dupatta:Pure cotton   fancy print',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1100
       },
@@ -354,10 +354,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct15,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -366,10 +366,10 @@ const prdct = [
         name: "Karachi Special",
         Image: CotnProduct1,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -378,10 +378,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct14,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta:Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta:Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -390,10 +390,10 @@ const prdct = [
         name: "Print Neck & Daman Print Pattern With Hand Work ",
         Image: CotnProduct24,
         description: [
-          '👗Top:Pure Cotton with beautiful print neck & daman print pattern with hand work ',
-          '👖Bottom: Pure Cotton ',
-          '🧣Dupatta:Pure cotton   fancy print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print neck & daman print pattern with hand work ',
+          'Bottom: Pure Cotton ',
+          'Dupatta:Pure cotton   fancy print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 700
       },
@@ -402,10 +402,10 @@ const prdct = [
         name: "Neck Hand Work And Dupatta Print",
         Image: CotnProduct32,
         description: [
-          '👗Top:Pure Cotton with beautiful print with neck hand work.',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with neck hand work.',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1500
       },
@@ -414,10 +414,10 @@ const prdct = [
         name: "Fancy Neck Embroidery Work ",
         Image: CotnProduct22,
         description: [
-          '👗Top:Pure Cotton with fancy neck embroidery work ',
-          '👖Bottom:Pure Cotton ',
-          '🧣Dupatta:Pure cotton   fancy print',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with fancy neck embroidery work ',
+          'Bottom:Pure Cotton ',
+          'Dupatta:Pure cotton   fancy print',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1100
       },
@@ -426,10 +426,10 @@ const prdct = [
         name: "Pure Cotton With Beautiful Print With Tie Hand Work.",
         Image: CotnProduct31,
         description: [
-          '👗Top:Pure Cotton with beautiful print with Tie hand work',
-          '👖Bottom:Pure Cotton',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print with Tie hand work',
+          'Bottom:Pure Cotton',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 900
       },
@@ -438,10 +438,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct13,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom:Pure Cotton With embroidery work ',
-          '🧣Dupatta. Pure Cotton with print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom:Pure Cotton With embroidery work ',
+          'Dupatta. Pure Cotton with print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 500
       },
@@ -450,10 +450,10 @@ const prdct = [
         name: "Rayon Cotton with beautiful print neck & fancy button",
         Image: CotnProduct19,
         description: [
-          '👗Top: Pure Rayon Cotton with beautiful print neck & fancy button',
-          '👖*Bottom: Pure Rayon Cotton ',
-          '🧣Dupatta. Pure Chiffon with sequence work ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Rayon Cotton with beautiful print neck & fancy button',
+          '*Bottom: Pure Rayon Cotton ',
+          'Dupatta. Pure Chiffon with sequence work ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1000
       },
@@ -462,10 +462,10 @@ const prdct = [
         name: "Print Neck & Daman Print Pattern With Hand Work ",
         Image: CotnProduct23,
         description: [
-          '👗Top:Pure Cotton with beautiful print neck & daman print pattern with hand work ',
-          '👖Bottom: Pure Cotton ',
-          '🧣Dupatta:Pure cotton   fancy print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top:Pure Cotton with beautiful print neck & daman print pattern with hand work ',
+          'Bottom: Pure Cotton ',
+          'Dupatta:Pure cotton   fancy print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 700
       },
@@ -474,10 +474,10 @@ const prdct = [
         name: "Rayon Cotton with beautiful print neck & fancy button",
         Image: CotnProduct17,
         description: [
-          '👗Top: Pure Rayon Cotton with beautiful print neck & fancy button',
-          '👖*Bottom: Pure Rayon Cotton ',
-          '🧣Dupatta. Pure Chiffon with sequence work ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Rayon Cotton with beautiful print neck & fancy button',
+          '*Bottom: Pure Rayon Cotton ',
+          'Dupatta. Pure Chiffon with sequence work ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 1000
       },
@@ -486,10 +486,10 @@ const prdct = [
         name: "Print karachi Pattern With Daman Print ",
         Image: CotnProduct2,
         description: [
-          '👗 Top Pure Karachi Cotton with Digital Print and Daman Lace',
-          '👖Bottom Pure Cotton',
-          '🧣Dupatta Pure Cotton printed with border lace',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          ' Top Pure Karachi Cotton with Digital Print and Daman Lace',
+          'Bottom Pure Cotton',
+          'Dupatta Pure Cotton printed with border lace',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 800
       },
@@ -498,10 +498,10 @@ const prdct = [
         name: "Print Neck Embroidery Work",
         Image: CotnProduct12,
         description: [
-          '👗Top: Pure Cotton with beautiful print neck embroidery work',
-          '👖Bottom : Pure Cotton With print ',
-          '🧣Dupatta :Pure Cotton beautiful print ',
-          '👗Top- 2.5 mtr 👖Bottom - 2.5 mtr 🧣Dupatta - 2.25 mtr'
+          'Top: Pure Cotton with beautiful print neck embroidery work',
+          'Bottom : Pure Cotton With print ',
+          'Dupatta :Pure Cotton beautiful print ',
+          'Top- 2.5 mtr Bottom - 2.5 mtr Dupatta - 2.25 mtr'
         ],
         price: 600
       },
