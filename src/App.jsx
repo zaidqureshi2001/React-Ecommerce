@@ -13,6 +13,7 @@ import Cotton from './pages/Product/Cotton'
 import Pakistani from './pages/Product/Pakistani'
 import Georgette from './pages/Product/Georgette'
 import Wedding from './pages/Product/Wedding'
+import ProductDetail from './pages/Product/ProductDetail'
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
     <Route path='/Pakistani' element={<Pakistani/>}/>
     <Route path='/Georgette' element={<Georgette/>}/>
     <Route path='/Wedding' element={<Wedding/>}/>
-  </Routes>
+    <Route path="/product/:id" element={<ProductDetail/>} />
+    </Routes>
   <Footer/>
     </>
   )

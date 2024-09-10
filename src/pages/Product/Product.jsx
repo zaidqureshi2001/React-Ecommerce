@@ -4,13 +4,16 @@ import { add } from '../../Redux/Cartslice';
 import { useDispatch } from 'react-redux';
 import './Product.css';
 import ProductPanel from './ProductPanel';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const Product = () => {
   const dispatch = useDispatch();
-  const allProducts = prdct.flatMap(category => Object.values(category)).flat(); // Flattening all categories
+  const allProducts = prdct.flatMap(category => Object.values(category)).flat();
+
   function handleAdd(product) {
     dispatch(add(product));
   }
+
   return (
     <div className="All_Products px-4 mt-32 font-playfair">
       <ProductPanel />
@@ -20,13 +23,15 @@ const Product = () => {
             key={product.id}
             className="product my-7 p-3 shadow-lg rounded-lg overflow-hidden w-64 h-5/6 cursor-pointer"
           >
-            <div className="image-container">
-              <img
-                src={product.Image}
-                alt={product.name}
-                className="product-image w-full h-72 object-cover transform transition-transform duration-300 hover:scale-105"
-              />
-            </div>
+            <Link to={`/product/${product.id}`}>
+              <div className="image-container">
+                <img
+                  src={product.Image}
+                  alt={product.name}
+                  className="product-image w-full h-72 object-cover transform transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+            </Link>
             <div className="p-4">
               <h2 className="text-sm font-bold text-gray-800 mb-2">{product.name}</h2>
               <div className="flex items-center justify-between">
@@ -44,6 +49,6 @@ const Product = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Product;

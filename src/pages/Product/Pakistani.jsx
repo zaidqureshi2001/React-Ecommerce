@@ -3,6 +3,7 @@ import prdct from '../../assets/allProducts/all_Products'
 import { useDispatch } from 'react-redux'
 import { add } from '../../Redux/Cartslice'
 import ProductPanel from './ProductPanel'
+import { Link } from 'react-router-dom'
 
 const Pakistani = () => {
   const dispatch = useDispatch()
@@ -19,6 +20,7 @@ const Pakistani = () => {
             key={index}
             className="product my-7 p-3 shadow-lg rounded-lg overflow-hidden w-64 h-5/6   cursor-pointer"
           >
+            <Link to={`/product/${product.id}`}>
             <div className="image-container">
               <img
                 src={product.Image}
@@ -26,6 +28,7 @@ const Pakistani = () => {
                 className="product-image w-full h-72 object-cover transform transition-transform duration-300 hover:scale-105"
               />
             </div>
+            </Link>
             <div className="p-4">
               <h2 className="text-sm font-bold text-gray-800 mb-2">{product.name}</h2>
               <div className="flex items-center justify-between">

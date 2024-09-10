@@ -510,7 +510,7 @@ const prdct = [
     ],
     Pakistani: [
       {
-        id: 38,
+        id: 39,
         name: "Pure Cotton Exclusive Designer Print with  Handwork  ",
         Image: pak1,
         description: [
@@ -523,7 +523,7 @@ const prdct = [
 
       },
       {
-        id: 39,
+        id: 50,
         name: "Karachi Print With Heavy Printed Desing ",
         Image: pak2,
         description: [
